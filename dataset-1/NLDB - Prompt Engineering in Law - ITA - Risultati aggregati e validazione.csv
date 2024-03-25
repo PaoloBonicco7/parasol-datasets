@@ -1,0 +1,73 @@
+"Tutti i task sono stati eseguiti con ChatGPT (modello tra parentesi)
+Descrizione Task:
+Task 1: Zero-shot
+Task 2: Zero-shot CoT
+Task 3: Few-shot
+Task 4: Few-shot Portion of Contract
+Task 5: Normal Prompt",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Task 1 (3.5),Task 1 (4),Task 2 (3.5),Task 2 (4),Task 3 (3.5),Task 3 (4),Task 4 (3.5),Task 4 (4),Task 5 (3.5),Task 5 (4),,ANALISI,
+1. Parti,,,,,,,,,,,,,
+1,1,1,1,1,1,1,,,,,,,
+2,1,1,1,1,1,1,,,,,,,
+3,1,1,1,,1,1,,,,,,,
+2. Oggetto,,,,,,,,,,,,,
+1,0,0,0,,0,1,,,,,,,
+2,1,1,1,,0,1,,,,,,,
+3,0,1,1,,0,1,,,,,,,
+3. Modifica,,,,,,,,,,,,,
+1,1,1,1,,1,1,,,,,,,
+2,1,1,1,,1,1,,,,,,,
+3,1,1,1,,1,1,,,,,,,
+4. Formazione,,,,,,,,,,,,,
+1,1,1,1,,1,1,,,,,,,
+2,1,1,1,,"1 (da verificare, equiparazione tra accettazione e formazione del contratto)",1,,,,,,,
+3,1,1,1,,1,1,,,,,,,
+5. Foro,,,,,,,,,,,,"GPT-3.5 in generale ogni tanto riporta solo una parte o solo una clausola di una categoria e non tutte le sotto clausole della clausola principale.
+
+GPT-4 invece in generale sembra azzeccarci meglio, mostrando anche abilità di reasoning migliori, invece in certi casi non ci azzecca proprio sbagliando il task, ad esempio fa riassunti
+
+Nella clausola “7. Prezzi e Pagamenti” i modelli beccano solo la clausola prezzi, il che è portato dal prompt scritto male in cui richiediamo solo la clausola prezzi
+
+Interrogativi
+
+- Il problema sta nel prompt o nel modello? (forse sta nel prompt)
+- Si può considerare errata la risposta che riporta solamente una porzione del contratto
+
+
+
+TEMA: idea di promt per utenza,  Strumento per esperti legali è un 1. Se invece  non ci da recesso è errore.
+1) BINARIO O NON BINARIO: QUESTO E IL DILEMMA
+2) 
+",
+1,1,1,,,1,1,,,,,,,
+2,1,1,1,,1,1,,,,,,, 
+3,1,1,1,,1,1,,,,,,,
+6. Recesso,,,,,,,,,,,,,
+1,1,1,1,,,,,,,,,,
+2,1,1,1,,,,,,,,,,
+3,1,1,1,,,,,,,,,,
+7. Prezzo,,,,,,,,,,,,,
+1,1,1,1,,,,,,,,,,
+2,1,1,1,,,,,,,,,,
+3,1,1,1,,,,,,,,,,
+8. Obblighi,,,,,,,,,,,,,
+1,1,1,0,,,,,,,,,,
+2,1,1,0,,,,,,,,,,
+3,0,0,,,,,,,,,,,
+9. Responsabilità,,,,,,,,,,,,,
+1,1,1,1,,,,,,,,,,
+2,1,1,,,,,,,,,,,
+3,1,1,1,,,,,,,,,,
+10. Privacy,,,,,,,,,,,,,
+1,1,1,1,,,,,,,,,,
+2,1,1,,,,,,,,,,,
+3,1,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+SOMMA,27,28,22,2,11,15,0,0,0,0,,,
+,,,,,,,,,,,,,
+PRECISION (?) pos/tot,"0,90","0,93","0,73","0,07","0,37","0,50","0,00","0,00","0,00","0,00",,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,Note su task 1,,Note su task 2,,Note su task 3,,Note su task 4,,Note su task 5,,,,
