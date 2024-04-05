@@ -1,14 +1,14 @@
 # Leveraging ChatGPT and Prompt Engineering to Support Contract Analysis - Project Datasets
 
-Welcome to the repository containing the datasets created as part of the PARASOL project. Our project focuses on utilizing advanced AI models to enhance the analysis of legal documents, providing insights into how these models can be leveraged in the field of law.
+Welcome to the repository containing the dataset created for the "Leveraging ChatGPT and Prompt Engineering to Support Contract Analysis" project. Our project focuses on utilizing advanced AI models to enhance the analysis of legal documents, providing insights into how these models can be leveraged in the field of law.
 
 ## Dataset Overview
 
 The initial dataset features an XLS file containing the results of various prompting techniques tested on OpenAI's ChatGPT models (versions 3.5 and 4). These techniques include:
 
-- Zero-shot prompting
-- Zero-shot with chain-of-thought prompting
-- Few-shot prompting
+- Zero-shot learning
+- Zero-shot with chain-of-thought learning
+- Few-shot learning
 
 The data originates from the Terms and Conditions of Italian websites, reflecting the nuances of Italian law. This dataset serves as a foundational resource for understanding how different prompting techniques influence model performance in legal contexts.
 
@@ -35,4 +35,4 @@ This dataset is intended for researchers, data scientists, and legal professiona
 - Develop strategies for integrating AI into legal research and document analysis.
 - Explore the potential of AI to provide insights into legal terminology and concepts based on Italian law.
 
-We encourage you to delve into the dataset and explore the possibilities it unveils for the intersection of AI and law.
+We encourage you to delve into the dataset and explore the possibilities it unveils for the intersection of AI and contract analysis.
