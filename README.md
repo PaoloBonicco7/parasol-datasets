@@ -1,4 +1,4 @@
-# PARASOL Project Datasets
+# Leveraging ChatGPT and Prompt Engineering to Support Contract Analysis - Project Datasets
 
 Welcome to the repository containing the datasets created as part of the PARASOL project. Our project focuses on utilizing advanced AI models to enhance the analysis of legal documents, providing insights into how these models can be leveraged in the field of law.
 
